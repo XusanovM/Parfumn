@@ -1,0 +1,129 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+img {
+  display: flex;
+  object-fit: cover;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cream-bg, #f2eae2);
+  transition: 0.3s;
+}
+.card {
+  width: 600px;
+  display: flex;
+  border-radius: 10px;
+  background: var(--Pure-White, #fff);
+}
+.card__img {
+  width: 337.694px;
+}
+.card__left {
+  padding: 32px;
+}
+.card__subtitle {
+  color: var(--Aurometal-Saurus, #6c7289);
+  font-feature-settings: "liga" off, "clig" off;
+
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+.card__title {
+  color: var(--Gunmetal, #1c232b);
+  font-feature-settings: "liga" off, "clig" off;
+
+  width: 236px;
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+.card__dis {
+  width: 237px;
+  color: #6c7289;
+
+  font-family: Montserrat;
+  font-size: 14px;
+
+  font-weight: 500;
+  line-height: 23px;
+  margin-bottom: 29px;
+}
+.card__btn__value {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  margin-bottom: 30px;
+}
+.card__value__new {
+  color: #3d8168;
+
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.card__value__not {
+  color: #6c7289;
+
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  text-decoration-line: line-through;
+}
+.card__btn {
+  width: 236px;
+  height: 48px;
+  padding: 15px 63px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #3d8168;
+
+  &:active {
+    background: #1a4032;
+  }
+}
+.card__btn__link {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.card__btn__dis {
+  color: #fff;
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
